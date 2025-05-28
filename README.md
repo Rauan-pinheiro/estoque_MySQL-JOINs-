@@ -24,6 +24,7 @@ Este é um sistema de cadastro de clientes e seus pedidos utilizando **Python** 
 - Ter criado as tabelas no banco de dados com os comandos:
 
 SQL:
+    
     CREATE DATABASE clientes;
     
     USE clientes;
@@ -46,13 +47,15 @@ SQL:
 
 ## Como executar
   1. Edite o arquivo e configure os dados de conexão!
+
     conexao = mysql.connector.connect(
     host="localhost",
     user="root",
     password="sua_senha",
     database="clientes"
-)
-  2. Execute o script
+    )
+
+  3. Execute o script
      python clientes_e_pedidos(JOINs).py
 
   3.Use o menu no terminal
